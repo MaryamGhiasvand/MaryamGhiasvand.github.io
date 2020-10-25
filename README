@@ -5,4 +5,3 @@ Difficulties:
 2) for "Home" page link I tried several thing for starting point 
     such as ./index and ~/index to use the correct link 
     and the correct link was "~/index"
-
