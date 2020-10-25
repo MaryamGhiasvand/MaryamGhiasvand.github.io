@@ -7,10 +7,6 @@ body {
     font-style: italic;
 }
 
-.main_block {
-    height: 500px;
-}
-
 .inner_block {
     display: inline-block;
     font-size: 20px;
