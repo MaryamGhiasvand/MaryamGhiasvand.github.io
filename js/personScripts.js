@@ -31,6 +31,7 @@ console.log(str)
 
 
 function testQuestion1() {
+    console.log("*********** Question1***********")
     console.log("--------- original text --------------")
     console.log("This house is not nice!");
     var word ="This house is not nice!".filter('not')
@@ -52,6 +53,7 @@ let bubbleSort = (inputArr) => {
     return inputArr; };
 
     function testQuestion2() {
+        console.log("*********** Question2***********")
         console.log("--------- original numbers --------------")
         console.log("1, 8, 4,3,9,10");
         const nums=[1, 8, 4,3,9,10];
@@ -77,6 +79,7 @@ Teacher.prototype.teach = function(subject) {
     //Teacher.prototype = Object.create(Person.prototype);
 
 function testQuestion3() {
+    console.log("*********** Question3***********")
     var teacher1 = new Teacher("Maryam Ghiasvand","30");
     teacher1.teach("Math");
 }
@@ -106,6 +109,7 @@ Professor.prototype.greeting = function() {
     };
 
     function testQuestion4() {
+        console.log("*********** Question4***********")
         var professor1 = new Professor("Maryam Ghiasvand","30","MathDept");
         var student1=new Student("Jimmy", "30","Math")
         professor1.greeting();
